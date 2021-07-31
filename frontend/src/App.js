@@ -1,17 +1,8 @@
-import React from 'react';
-import DataTable from './components/DataTable';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
+import Routes from "./Routes";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <div className="content container">
-        <DataTable />
-      </div>
-      <Footer />
-    </>
+    <Routes />
   );
 }
 
